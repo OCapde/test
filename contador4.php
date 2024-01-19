@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 $servername = "localhost"; 
-$username = "admin"; 
+$username = "root"; 
 $password = "Monti2021"; 
 $dbname = "estadistics"; 
 
