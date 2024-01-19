@@ -17,11 +17,11 @@ if($conn -> connect_errno) {
 
 $ip=$_SERVER['REMOTE_ADDR'];
 $sql="INSERT INTO registre(ip) VALUES ('" . $ip . "')"; 
-$conn-›query($sql); 
+$conn->query($sql); 
 
-$resultat = $conn-›query("SELECT COUNT(*) FROM registre"); 
+$resultat = $conn->query("SELECT COUNT(*) FROM registre"); 
 $row = mysqli_fetch_array($resultat); 
 echo $row[0]; 
 
-$conn-›close();
+$conn->close();
 ?>
