@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 
 $servername = "localhost"; 
 $username = "admin"; 
-$password = "12345"; 
+$password = "Monti2021"; 
 $dbname = "estadistics"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname); 
