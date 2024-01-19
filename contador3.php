@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 $contador = 0;
 
 if ($fd = fopen('counter.txt', 'r')) {
-    $contador = fgets($fd);
+    $contador = intval(fgets($fd));
     fclose($fd);
 }
 
